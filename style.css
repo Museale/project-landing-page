@@ -41,6 +41,7 @@ button {
     color: #e5e7eb;
 }
 
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -97,22 +98,19 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5em 12em;
+    padding: 10em 12em;
     background-color: #e5e7eb;
     font-size: 36px #1f2937;
     font-weight: lighter;
     font-style: italic;
 }
-strong {
-    margin-top: 20px;
-    margin-right: 20px;
-}
+
 .images {
     width: 15vw;
     height: auto;
     border: 2px solid #3882f6;
     border-radius: 8px;
-    box-shadow: 3px 3px 3px #1f29377e;
+    box-shadow: 3px 3px 4px #3882f6;
 }
 .bottomContainer {
     display: flex;
@@ -125,18 +123,18 @@ strong {
     justify-content: center;
     align-items: center;
     background-color: #3882f6;
-    width: 80vw;
-    padding: 1.5em;
-    gap: 4em;
+    width: 68vw;
+    padding: 1em;
+    gap: 10em;
     border-radius: 8px;
 }
 
 .blueText {
     color: #e5e7eb;
-    flex-direction: column;
-    align-items: flex-start;
-
+    margin: 0;
+    padding: 0;
 }
+
 .blueButt {
     display: flex;
     justify-content: center;
